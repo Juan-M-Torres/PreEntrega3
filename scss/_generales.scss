@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "OpensSans";
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+  }
+  * {
+    font-family: "OpensSans";
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #e6e9f6;
+    nav {
+      background-color: #b5bde3;
+      margin-bottom: 10px;
+    }
+    header p {
+      text-align: center;
+      background-color: #faf673;
+      margin-bottom: 0px;
+      border: solid 1px black;
+    }
+    aside div ul li a {
+      color: black;
+    }
+    aside div button {
+      margin-left: 5px;
+      border-radius: 5px;
+      text-decoration: underline 1px solid black;
+      background-color: #ced3ec;
+    }
+    aside div h3 {
+      display: none;
+    }
+    section div h3 {
+      text-align: center;
+    }
+    section div article {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+
+  footer {
+    border-top: 1px black solid;
+    .imagenFooter {
+      height: 30px;
+      width: 30px;
+      margin: 20px;
+    }
+  }

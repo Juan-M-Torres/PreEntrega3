@@ -1,0 +1,33 @@
+.formularioContacto {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #a0e9c2;
+  }
+  .container-contacto-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-areas:
+      "cajaContactoTelefono"
+      "cajaContactoForm"
+      "cajaContactoPrivacidad";
+  }
+  .cajaContactoForm {
+    grid-area: cajaContactoForm;
+  }
+  .cajaContactoPrivacidad {
+    grid-area: cajaContactoPrivacidad;
+  }
+  .cajaContactoTelefono {
+    grid-area: cajaContactoTelefono;
+  }
+  .logoWhatsapp {
+    height: 20px;
+    width: 20px;
+  }
+  .imgYtelefono {
+    display: flex;
+  }
