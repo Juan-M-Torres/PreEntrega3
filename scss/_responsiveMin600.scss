@@ -33,14 +33,18 @@
     .boton-filtro {
       display: none;
     }
-    main aside div h3 {
-      align-items: center;
-      justify-content: center;
-    }
-    main aside div ul li {
-      padding: 20px;
-      text-align: center;
-    }
+    main{
+      aside{
+        div h3 {
+          align-items: center;
+          justify-content: center;
+        }
+        div ul li {
+          padding: 20px;
+          text-align: center;
+        }
+      }
+    }  
     .navegador {
       display: flex;
       flex-direction: column;
