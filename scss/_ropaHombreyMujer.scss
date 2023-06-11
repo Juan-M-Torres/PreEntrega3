@@ -9,7 +9,7 @@
     .show {
       display: flex;
       flex-direction: column;
-      background-color: #b5bde3;
+      background-color: $fondoNavShow;
       border-radius: 15px;
       margin-right: 270px;
       margin-left: 15px;
@@ -19,7 +19,7 @@
   
   .card,
   .card-body {
-    background-color: rgb(152, 166, 179);
+    background-color: $fondoCard;
   }
   .card-img-top {
     margin-top: 10px;
