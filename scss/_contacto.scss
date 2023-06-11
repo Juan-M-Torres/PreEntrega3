@@ -25,8 +25,7 @@
     grid-area: cajaContactoTelefono;
   }
   .logoWhatsapp {
-    height: 20px;
-    width: 20px;
+    @include tamanio (20px, 20px);
   }
   .imgYtelefono {
     display: flex;

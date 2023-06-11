@@ -2,7 +2,6 @@
     display: flex;
   }
   .imagenMediosDePagoyEnvio {
-    height: 40px;
-    width: 40px;
+    @include tamanio (40px, 40px);
     padding: 5px;
   }

@@ -44,8 +44,7 @@
   footer {
     border-top: 1px black solid;
     .imagenFooter {
-      height: 30px;
-      width: 30px;
+      @include tamanio (30px, 30px);
       margin: 20px;
     }
   }
