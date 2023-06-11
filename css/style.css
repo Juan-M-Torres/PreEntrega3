@@ -12,7 +12,8 @@ body {
   background-color: #e6e9f6;
 }
 body nav {
-  background-color: #b5bde3;
+  background: rgb(181, 189, 227);
+  background: linear-gradient(90deg, rgb(181, 189, 227) 7%, rgb(181, 189, 227) 57%, rgb(101, 97, 166) 93%);
   margin-bottom: 10px;
 }
 body header p {
@@ -99,13 +100,21 @@ footer .imagenFooter {
 .navegador .show {
   display: flex;
   flex-direction: column;
-  background-color: #b5bde3;
+  background: rgb(181, 189, 227);
+  background: linear-gradient(90deg, rgb(181, 189, 227) 7%, rgb(181, 189, 227) 57%, rgb(101, 97, 166) 93%);
   border-radius: 15px;
   margin-right: 270px;
   margin-left: 15px;
 }
 
-.card,
+.card {
+  background-color: rgb(152, 166, 179);
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px rgb(21, 21, 21);
+}
+
 .card-body {
   background-color: rgb(152, 166, 179);
 }
@@ -139,7 +148,7 @@ footer .imagenFooter {
 .formularioContacto {
   border: 1px solid black;
   padding: 10px;
-  background-color: #a0e9c2;
+  background-color: #8b84f5;
 }
 
 .container-contacto-grid {
@@ -171,6 +180,10 @@ footer .imagenFooter {
 
 .imgYtelefono {
   display: flex;
+}
+
+.btn {
+  background-color: #516ad7;
 }
 
 @media only screen and (min-width: 600px) {
