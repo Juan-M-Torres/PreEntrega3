@@ -93,18 +93,27 @@ footer .imagenFooter {
   text-align: center;
 }
 
+main aside div {
+  display: flex;
+  justify-content: center;
+}
+main aside .div-navegadorRopa {
+  display: flex;
+  align-items: center;
+}
+
 .navegador {
   display: none;
   list-style: none;
 }
-.navegador .show {
+
+.navegador.show {
   display: flex;
   flex-direction: column;
   background: rgb(181, 189, 227);
   background: linear-gradient(90deg, rgb(181, 189, 227) 7%, rgb(181, 189, 227) 57%, rgb(101, 97, 166) 93%);
-  border-radius: 15px;
-  margin-right: 270px;
-  margin-left: 15px;
+  border-radius: 10px;
+  text-align: left;
 }
 
 .card {
